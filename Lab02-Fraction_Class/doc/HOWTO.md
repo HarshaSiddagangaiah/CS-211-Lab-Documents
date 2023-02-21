@@ -34,7 +34,7 @@ AssertionError: Denominator cannot be 0 and Numerator cannot be negative
 AssertionError: Denominator cannot be 0 and Numerator cannot be negative
 ```
 
-## Coding Step 2: __str__ and __repr__ magic methods
+## Coding Step 2: `__str__` and `__repr__` magic methods
 The `__str__` magic method is used whenever you print an object. For our Fraction objects, we want the output of the __str__ method to be a string of the numerator and the denominator separated by a forward slash, like so:
 
 ```python
@@ -105,7 +105,7 @@ def gcd(a, b) -> int:
 Once you have the GCD, simplifying the fraction means dividing both the numerator and denominator by the GCD. For example:
 
 
-## IMPORTANT: the simplify method DOES NOT create a new object, instead it MODIFIES the object that calls it:
+### IMPORTANT: the simplify method DOES NOT create a new object, instead it MODIFIES the object that calls it:
 
 ```python
 >>> f1 = Fraction(35,56)
