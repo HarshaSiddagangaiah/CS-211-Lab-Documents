@@ -9,14 +9,14 @@ The abstract class is defined as follows:
 ```python
 class Creature(object):
 
-def __init__(self):
-    raise NotImplementedError("Abstract classes should not be instanciated")
+    def __init__(self):
+        raise NotImplementedError("Abstract classes should not be instanciated")
 
-def __str__(self) -> str:
-    raise NotImplementedError("Abstract class methods should not be called")
-    
-def search(self, value: str) -> bool:
-    raise NotImplementedError("Abstract class methods should not be called")
+    def __str__(self) -> str:
+        raise NotImplementedError("Abstract class methods should not be called")
+
+    def search(self, value: str) -> bool:
+        raise NotImplementedError("Abstract class methods should not be called")
 ```
 
 The 3 concrete classes are named: OrthrusLinks to an external site., CerberusLinks to an external site., and Head. 
