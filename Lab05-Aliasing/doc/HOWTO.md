@@ -33,7 +33,7 @@ A set itself may be modified, but the elements contained in the set must be of a
 2. Create a method called schedule_meeting() to schedule a meeting for a student given a time slot.
 
 ```python
-def schedule_meeting(self, time: int):
+    def schedule_meeting(self, time: int):
 ```
 
 This function takes in one parameter time, it checks if the student is free at the time, if so, it will add time to meetings and remove time from freetimes.
@@ -61,27 +61,27 @@ Notice that we used Optional[int]=None here, this is called type checking or typ
 2. Create the following function to add a student to the member list.
 
 ```python
-def join(self, student: Student):
+    def join(self, student: Student):
 ```
 
 3. Create the following function to find the common time slot for all members from their freetimes to attend. If it cannot find a common time, return 0.
 
 ```python
-def find_common_time(self) -> int:
+    def find_common_time(self) -> int:
 ```
 
 4. Create the following function to schedule the club meeting for all of its members.
 
 ```python
-def schedule(self, time: int):
+    def schedule(self, time: int):
 ```
 
 5. Add __str__ magical method:
 
 ```python
-def __str__(self) -> str:
-    member_names = [member.name for member in self.members]
-    return f"{self.name} ({', '.join(member_names)})"
+    def __str__(self) -> str:
+        member_names = [member.name for member in self.members]
+        return f"{self.name} ({', '.join(member_names)})"
 ```
 
 ## Coding step 3
@@ -98,14 +98,14 @@ class ASUO:
 2. Create the following function to add a student to the list of students.
 
 ```python
-def enroll(self, s: Student):
+    def enroll(self, s: Student):
 ```
 
 3. Create the following function to form clubs:
 
 ```python
-def form_clubs(self):
-    clubs_to_form: Dict[str, Club] = {}
+    def form_clubs(self):
+        clubs_to_form: Dict[str, Club] = {}
  ```
 
 For each student, checks if student interested club has already been formed. If not, creates a new Club object with the interest and add it to the clubs_to_form dictionary. If a club for that interest already exists, then add the student to the existing club.
@@ -115,7 +115,7 @@ Notice that clubs_to_form is a dictionary. A dictionary contains key-value pairs
 4. Create the following function to schedule clubs:
 
 ```python
-def schedule_clubs(self):
+    def schedule_clubs(self):
 ```
 
 For each club, check for the common time and schedule the club meeting time.
@@ -123,10 +123,10 @@ For each club, check for the common time and schedule the club meeting time.
 5. Add a function to print out club schedule:
 
 ```python
-def print_club_schedule(self):
-    for club in self.clubs:
-        if club.meeting_time is not None:
-            print(f"{club} meets at {club.meeting_time}")
+    def print_club_schedule(self):
+        for club in self.clubs:
+            if club.meeting_time is not None:
+                print(f"{club} meets at {club.meeting_time}")
 ```            
 
 ## Coding step 4
