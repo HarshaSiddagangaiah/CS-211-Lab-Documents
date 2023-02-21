@@ -1,4 +1,4 @@
-# lab01-intervals
+# Intervals
 
 An introductory lab exercise for CIS 211, related to the Agenda main project. This exercise introduces
 
