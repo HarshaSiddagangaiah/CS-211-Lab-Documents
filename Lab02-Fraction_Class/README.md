@@ -14,3 +14,5 @@
 3. Implementing mul and add magic methods.
 4. Implementing a simplify method that reduces a fraction to its simplest terms.
 5. Integrating simplify into init, add, and mul.
+
+Look in doc/HOWTO.md for detailed directions.
