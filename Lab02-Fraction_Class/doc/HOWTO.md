@@ -11,7 +11,7 @@ Read the instructions carefully and ask for clarification from your TA/LA if nec
 
 IMPORTANT: Remember to use type hinting in your method headers specifying the argument types and the return type.
 
-## Coding Step 1: Class definition and constructor method __init__
+## Coding Step 1: Class definition and constructor method `__init__`
 Define a new Python class named Fraction.
 
 As you already know, fractions have 2 parts: the numerator and the denominator.
@@ -35,7 +35,7 @@ AssertionError: Denominator cannot be 0 and Numerator cannot be negative
 ```
 
 ## Coding Step 2: __str__ and __repr__ magic methods
-The __str__ magic method is used whenever you print an object. For our Fraction objects, we want the output of the __str__ method to be a string of the numerator and the denominator separated by a forward slash, like so:
+The `__str__` magic method is used whenever you print an object. For our Fraction objects, we want the output of the __str__ method to be a string of the numerator and the denominator separated by a forward slash, like so:
 
 ```python
 >>> f1 = Fraction(5,8)
@@ -43,7 +43,7 @@ The __str__ magic method is used whenever you print an object. For our Fraction 
 5/8
 ```
 
-The __repr__ magic method is used by the debugger and should return a string that looks like a call to the constructor of the class. For our Fraction object, it should look like this:
+The `__repr__` magic method is used by the debugger and should return a string that looks like a call to the constructor of the class. For our Fraction object, it should look like this:
 
 ```python
 >>> f1 = Fraction(3,9)
@@ -51,11 +51,11 @@ The __repr__ magic method is used by the debugger and should return a string tha
 Fraction(3,9)
 ```
 
-## Coding Step 3: __mul__ and __add__ magic methods
+## Coding Step 3: `__mul__` and `__add__` magic methods
 Fraction multiplication is pretty straight forward: multiply both numerators by each other and both denominators by each other:
 
 
-The fraction __mul__ magic method should then receive a second Fraction object as an argument and perform the multiplication operation for fractions.
+The fraction `__mul__` magic method should then receive a second Fraction object as an argument and perform the multiplication operation for fractions.
 
 IMPORTANT: This method should create a NEW Fraction object and NOT modify the original fractions:
 
@@ -72,7 +72,7 @@ IMPORTANT: This method should create a NEW Fraction object and NOT modify the or
 For fraction addition, the resulting denominator is again the multiplication of both the original denominators. The resulting numerator is obtained by multiplying each numerator by its counterpart denominator and then adding them together like so:
 
 
-Same as with __mul__, the __add__ magic method must create a NEW Fraction object:
+Same as with `__mul__`, the `__add__` magic method must create a NEW Fraction object:
 
 ```python
 >>> f1 = Fraction(3,4)
@@ -116,8 +116,8 @@ Once you have the GCD, simplifying the fraction means dividing both the numerato
 5/8
 ```
 
-## Coding Step 5: Integrate simplify into __init__, __add__, and __mul__
-Modify the code for __init__, __add__, and __mul__ so that only minimal fractions are returned:
+## Coding Step 5: Integrate simplify into `__init__`, `__add__`, and `__mul__`
+Modify the code for `__init__`, `__add__`, and `__mul__` so that only minimal fractions are returned:
 
 ```python
 >>> f1 = Fraction(4,6)
