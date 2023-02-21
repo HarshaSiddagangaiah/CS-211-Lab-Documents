@@ -147,12 +147,15 @@ asuo.print_club_schedule()
 ### What to submit?
 If everything works correctly, you should have the following output:
 
+```python
 badminton (Marty, George) meets at 8
 robotics (Marty, Tara) meets at 9
 backgammon (Kim) meets at 8
 horticulture (Tara) meets at 8
 chess (Tara, George) meets at 10
-Submit a file named lab5.py with your code to Canvas.
+```
+
+Submit a file named Aliasing.py with your code to Canvas.
 
  
 
