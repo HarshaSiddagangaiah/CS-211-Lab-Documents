@@ -14,7 +14,7 @@ You will begin by defining the Fraction class and its constructor method, where 
 
 In the next step, you will define the multiplication and addition magic methods to perform arithmetic operations on fractions. You will also learn how to create new Fraction objects from these operations without modifying the original fractions.
 
-Finally, you will define a method to simplify fractions and integrate it into the constructor, multiplication, and addition methods. At the end of the lab, you will upload your code to the provided platform.
+Finally, you will define a method to simplify fractions and integrate it into the constructor, multiplication, and addition methods.
 
 ### Plan for the lab
 
