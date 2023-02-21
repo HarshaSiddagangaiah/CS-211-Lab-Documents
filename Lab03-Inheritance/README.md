@@ -17,8 +17,8 @@ The lab covers creating concrete subclasses, defining class attributes, and impl
 1. Creating abstract class `Shape3D`, which has three methods: `__init__`, `volume`, and `area`.
 2. Implementing a new method called `print_info` in the `Shape3D` abstract class that prints both the `volume` and `area` of the shape.
 3. Creating a new class called `Cylinder` that inherits from the `Shape3D` abstract class. Implement methods to calculate the `volume` and `area` of a cylinder using the radius and height attributes.
-4. Create a new class called `Cuboid` that also inherits from the `Shape3D` abstract class. Implement methods to calculate the `volume` and `area` of a cuboid using the width, length, and height attributes.
-5. Create a new class called `Cube` that inherits from Cuboid. Since a cube is a specific type of cuboid, the `volume` and `area` calculation methods in Cube can simply use the ones already defined in Cuboid.
-6. Test the implementation by creating instances of `Cylinder`, `Cuboid`, and `Cube`, and calling the `print_info` method on each of them to verify that the calculations are correct.
+4. Creating a new class called `Cuboid` that also inherits from the `Shape3D` abstract class. Implement methods to calculate the `volume` and `area` of a cuboid using the width, length, and height attributes.
+5. Creating a new class called `Cube` that inherits from Cuboid. Since a cube is a specific type of cuboid, the `volume` and `area` calculation methods in Cube can simply use the ones already defined in Cuboid.
+6. Testing the implementation by creating instances of `Cylinder`, `Cuboid`, and `Cube`, and calling the `print_info` method on each of them to verify that the calculations are correct.
 
 Look in doc/HOWTO.md for detailed directions.
