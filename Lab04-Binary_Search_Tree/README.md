@@ -17,3 +17,5 @@ This lab provides a step-by-step guide on how to implement a Binary Search Tree 
 4. Implementation of the `sum_node_data` method in both `Internal` and `Leaf` classes to calculate the sum of nodes.
 5. Running the program by creating a binary search tree using the `Internal` and `Leaf` classes, calling the `sum_node_data` method and printing the output.
 6. Implementation of the `str` method in all three classes to provide the representation of the tree or subtree in the form of `<data, left, right>`.
+
+Look in doc/HOWTO.md for detailed directions.
