@@ -18,3 +18,5 @@ This lab covers the concept of creating classes and working with objects in Pyth
 2. Create a class `Club` that has a constructor which takes in the name of the club as an argument. It has two instance variables: `members` (a list of members of the club) and `meeting_time` (a meeting time so that all members can attend). Implement functions `join()` to add a student to the member list, `find_common_time()` to find the common time slot for all members from their freetimes to attend, and `schedule()` to schedule the club meeting for all of its members.
 3. Create a class `ASUO` that has a constructor with two instance variables: `students` (a list of students) and `clubs` (a list of clubs). Implement functions `enroll()` to add a student to the list of students, `form_clubs()` to form clubs, and `schedule_clubs()` to schedule clubs. Implement a function `print_club_schedule()` to print out the schedule of each club.
 4. Add test code to create an instance of the ASUO class, enroll some students, form and schedule clubs, and print out the club schedule.
+
+Look in doc/HOWTO.md for detailed directions.
