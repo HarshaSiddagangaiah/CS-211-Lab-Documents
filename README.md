@@ -4,7 +4,7 @@
 
 This repository contains lab documents created for CS 211.
 
-## Exercises covered in CS 211 labs
+## Exercises covered in CS 211 Labs
 
 - Lab01-intervals
 - Lab02-Fraction_Class
