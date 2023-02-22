@@ -21,3 +21,5 @@ This lab describes a programming exercise to create a BinaryNumber class in Pyth
    - `right_shift` (bitwise right shift)
 5. In-place modification of current object for `left_shift` and `right_shift` methods
 6. Implementation of an 'extract' method to extract bits in a given range and return a new BinaryNumber object with those bits
+
+Look in doc/HOWTO.md for detailed directions.
