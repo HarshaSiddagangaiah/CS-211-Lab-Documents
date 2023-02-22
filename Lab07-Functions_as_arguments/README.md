@@ -23,3 +23,5 @@ This lab document covers several Python programming concepts, including function
    - `square`
    - `magnitude`
 6. Implementation of `FunctionDispatcher` class and creating a dispatcher using function aliasing.
+
+Look in doc/HOWTO.md for detailed directions.
