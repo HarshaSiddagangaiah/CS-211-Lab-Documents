@@ -4,12 +4,11 @@
 
 1. Binary Search Trees (BSTs) and their properties.
 2. Abstract classes, concrete subclasses, and inheritance in object-oriented programming.
-3. The construction of a binary search tree using the Node, Leaf, and Internal classes in Python.
-4. Implementation of the sum_node_data and str methods in the Node, Leaf, and Internal classes to calculate the sum of node data and to provide a string representation of the tree or subtree.
-5. The recursive nature of the sum_node_data method.
+3. The construction of a binary search tree using the `Node`, `Leaf`, and `Internal` classes in Python.
+4. The recursive nature of the sub class methods.
 
 ## Brief Summary
-The lab document provides a step-by-step guide on how to implement a Binary Search Tree (BST) using Python programming language. It covers the creation of three classes - `Node`, `Leaf`, and `Internal` - to represent the BST, and the implementation of various methods such as `sum_node_data` and `str` in these classes. The document walks the user through the process of building a BST using the `Internal` and `Leaf` classes, calling the `sum_node_data` method and printing the output. The lab document provides a comprehensive introduction to building and working with BSTs in Python.
+This lab provides a step-by-step guide on how to implement a Binary Search Tree (BST) using Python programming language. It covers the creation of three classes - `Node`, `Leaf`, and `Internal` - to represent the BST, and the implementation of various methods such as `sum_node_data` and `str` in these classes. The document walks the user through the process of building a BST using the `Internal` and `Leaf` classes, calling the `sum_node_data` method and printing the output. The lab provides a comprehensive introduction to building and working with BSTs in Python.
 
 ## Plan for the lab
 1. Creation of three classes - `Node`, `Leaf`, and `Internal` - to represent the `BST`.
