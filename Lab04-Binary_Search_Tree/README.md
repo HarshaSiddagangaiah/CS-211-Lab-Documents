@@ -9,7 +9,7 @@
 5. The recursive nature of the sum_node_data method.
 
 ## Brief Summary
-The lab document provides a step-by-step guide on how to implement a Binary Search Tree (BST) using Python programming language. It covers the creation of three classes - `Node`, `Leaf`, and `Internal` - to represent the BST, and the implementation of various methods such as `sum_node_data` and `str` in these classes. The document walks the user through the process of building a BST using the `Internal` and `Leaf` classes, calling the `sum_node_data` method and printing the output, and provides the deliverable requirements for submitting the completed project. The lab document provides a comprehensive introduction to building and working with BSTs in Python.
+The lab document provides a step-by-step guide on how to implement a Binary Search Tree (BST) using Python programming language. It covers the creation of three classes - `Node`, `Leaf`, and `Internal` - to represent the BST, and the implementation of various methods such as `sum_node_data` and `str` in these classes. The document walks the user through the process of building a BST using the `Internal` and `Leaf` classes, calling the `sum_node_data` method and printing the output. The lab document provides a comprehensive introduction to building and working with BSTs in Python.
 
 ## Plan for the lab
 1. Creation of three classes - `Node`, `Leaf`, and `Internal` - to represent the `BST`.
