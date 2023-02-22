@@ -21,7 +21,7 @@ Labs are led by graduate teaching assistants, usually with help from undergradua
 
 Lab session may begin with a brief lecture or demonstration by the TA, who will explain the lab objectives and give an overview of the tools and techniques that will be used. This may include a review of key concepts from the associated lab, as well as tips and tricks for completing the lab exercises.
 
-Throughout the lab session, the instructor and/or teaching assistants (TAs) should be available to answer questions and provide assistance for students as needed. This may involve walking around the room and checking in on students, or using online communication tools like chat or video conferencing to provide remote assistance.
+Throughout the lab session, the instructor and/or teaching assistants (TAs) will be available to answer questions and provide assistance for students as needed. This may involve walking around the room and checking in on students, or using online communication tools like chat or video conferencing to provide remote assistance.
 
 Students will then begin working on the lab exercises, which may involve coding, debugging, testing, or other tasks related to the course material. In some labs sessions, students may work in pairs or small groups to complete the exercises, while in others they will work individually.
 
