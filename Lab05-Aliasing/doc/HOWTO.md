@@ -31,13 +31,13 @@ Note: Here are some of the characteristics of Python's built-in set type:
 
 - `meetings`: a list of time slots for all the meetings that a student has scheduled. Note that a time slot in meetings should not be included in freetimes. 
 
-2. Create a method called schedule_meeting() to schedule a meeting for a student given a time slot.
+2. Create a method called `schedule_meeting()` to schedule a meeting for a student given a time slot.
 
 ```python
     def schedule_meeting(self, time: int):
 ```
 
-This function takes in one parameter time, it checks if the student is free at the time, if so, it will add time to meetings and remove time from freetimes.
+This function takes in one parameter `time`, it checks if the student is free at the `time`, if so, it will add `time` to `meetings` and remove `time` from `freetimes`.
 
 ## Coding step 2
 1. Create a class called Club with the following constructor:
