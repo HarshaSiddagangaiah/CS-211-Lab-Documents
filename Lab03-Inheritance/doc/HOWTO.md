@@ -36,7 +36,7 @@ The formula for the `volume of a Cylinder` is as follows:  $\pi * radius^2 * hei
 
 The formula for the `area of a Cylinder` is as follows: 
 
-$2 * \pi * radius^2 + 2 * \pi * radius * height$
+                        $2 * \pi * radius^2 + 2 * \pi * radius * height$
 
 
 ## Coding step 3
