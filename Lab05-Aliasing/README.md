@@ -10,7 +10,7 @@
 
 ## Brief summary
 
-This lab covers the concept of creating classes and working with objects in Python to form and schedule clubs for students in ASUO (The Associated Students of the University of Oregon). The lab includes creating three classes: Student, Club, and ASUO, and implementing various methods for scheduling meetings and finding common time slots for clubs. The lab also covers the concept of type checking and type hints in Python, and the use of dictionaries and sets in Python.
+This lab covers the concept of creating classes and working with objects in Python to form and schedule clubs for students in ASUO (The Associated Students of the University of Oregon). The lab includes creating three classes: `Student`, `Club`, and `ASUO`, and implementing various methods for scheduling meetings and finding common time slots for clubs. The lab also covers the concept of type checking and type hints in Python, and the use of dictionaries and sets in Python.
 
 ## Plan for the lab
 
