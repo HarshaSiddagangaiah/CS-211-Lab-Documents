@@ -134,4 +134,4 @@ Once done, you should be able to run code like the following:
 >>> fd.process_command(3, [3,4])
 5.0
 ```
-Submit your code to Canvas in a file named `functionDispatcher.py` when you're done.
+Submit your code to Canvas in a file named `functiondispatcher.py` when you're done.
