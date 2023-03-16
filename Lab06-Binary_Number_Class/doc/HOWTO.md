@@ -22,9 +22,9 @@ Implement the following methods for the class:
 - `left_shift`
 - `right_shift`
 
-IMPORTANT NOTE:  `__or__` and `__and__` produce a new BinaryNumber object. The shifting methods, however, work in-place, modifying the current object.
+**IMPORTANT NOTE:**  `__or__` and `__and__` produce a new BinaryNumber object. The shifting methods, however, work in-place, modifying the current object.
 
-IMPORTANT NOTE 2: `__or__` and `__and__`  only work for BinaryNumber objects with the same length.
+**IMPORTANT NOTE 2:** `__or__` and `__and__`  only work for BinaryNumber objects with the same length.
 
 If you have any questions regarding the functionality of these methods, please refer to the the TA/LA..
 
