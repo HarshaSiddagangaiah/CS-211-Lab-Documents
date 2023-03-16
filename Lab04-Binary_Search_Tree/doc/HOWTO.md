@@ -29,6 +29,7 @@ Abstract method `sum_node_data` will sum the value of current node and all nodes
 
 ## Step 2
 Make a class `Leaf` inheriting `Node`, whose constructor takes a single integer value `node_data`.
+
 Make a class `Internal` inheriting `Node`, whose constructor takes the following values:
 `node_data: int`, `left: Node`, and `right: Node`.
 
