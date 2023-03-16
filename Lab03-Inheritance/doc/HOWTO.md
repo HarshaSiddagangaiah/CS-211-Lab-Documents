@@ -69,4 +69,4 @@ Area: 150.79644737231007  Volume: 141.3716694115407
 Area: 228  Volume: 216
 ```
 
-Submit a file named `Shape3D.py` with your code to Canvas.
+Submit a file named `shapes.py` with your code to Canvas.
