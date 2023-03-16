@@ -74,4 +74,4 @@ Once you're done you should be able to use the code as follows:
 [0, 0, 0, 0, 0, 1, 0, 1]
 ```
 
-Submit a file named `BinaryNumber.py` with your code
+Submit a file named `binarynumber.py` with your code
