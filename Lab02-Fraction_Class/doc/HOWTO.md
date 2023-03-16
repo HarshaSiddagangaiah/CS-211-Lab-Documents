@@ -73,7 +73,7 @@ IMPORTANT: This method should create a **NEW** Fraction object and **NOT** modif
 For fraction addition, the resulting denominator is again the multiplication of both the original denominators. The resulting numerator is obtained by multiplying each numerator by its counterpart denominator and then adding them together like so:
 
 
-Same as with `__mul__`, the `__add__` magic method must create a NEW Fraction object:
+Same as with `__mul__`, the `__add__` magic method must create a **NEW** Fraction object:
 
 ```python
 >>> f1 = Fraction(3,4)
