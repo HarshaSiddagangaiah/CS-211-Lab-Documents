@@ -31,7 +31,7 @@ Add a concrete subclass `Cylinder` that inherits from `Shape3D`.
 
 A Cylinder has 2 attributes: `radius` and `height`. Both should be of the `float` type.
 
-The formula for the `volume of a Cylinder` is as follows: $ \pie {3x-1}+(1+x)^2$
+The formula for the `volume of a Cylinder` is as follows: $ \pi {3x-1}+(1+x)^2$
 
 
 The formula for the `area of a Cylinder` is as follows:
