@@ -21,7 +21,7 @@ class Student:
         self.meetings: List[int] = []
 ```
 
-- freetimes: a list of available time slots for a student, simplified to be just integers representing hours. Each student starts out with free times 8,9,...,15.
+- `freetimes`: a list of available time slots for a student, simplified to be just integers representing hours. Each student starts out with free times 8,9,...,15.
 
 Note: Here are some of the characteristics of Python's built-in set type:
 
