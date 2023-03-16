@@ -55,6 +55,7 @@ Fraction(3,9)
 ## Coding Step 3: `__mul__` and `__add__` magic methods
 Fraction multiplication is pretty straight forward: multiply both numerators by each other and both denominators by each other:
 
+&frac12;
 
 The fraction `__mul__` magic method should then receive a second Fraction object as an argument and perform the multiplication operation for fractions.
 
