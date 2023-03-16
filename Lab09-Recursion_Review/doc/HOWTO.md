@@ -26,7 +26,7 @@ All three should have the following methods:
 - `__str__(self) -> str`
   - to provide a string representation for the class
 - `search(self, name: str) -> bool`
-- - a method that searches through the data structure for a specific name
+  - a method that searches through the data structure for a specific name
 
 The attributes for each class should be as follows:
 
