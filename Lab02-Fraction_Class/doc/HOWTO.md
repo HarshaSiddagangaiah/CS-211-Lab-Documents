@@ -10,20 +10,20 @@ The main topics you'll practice during this lab are:
 
 Read the instructions carefully and ask for clarification from your TA/LA if necessary.
 
-IMPORTANT: Remember to use type hinting in your method headers specifying the argument types and the return type.
+**IMPORTANT**: Remember to use type hinting in your method headers specifying the argument types and the return type.
 
 ## Coding Step 1: Class definition and constructor method `__init__`
-Define a new Python class named Fraction.
+Define a new Python class named `Fraction`.
 
 As you already know, fractions have 2 parts: the numerator and the denominator.
 
-The class should then have 2 integer attributes attributes `"num"` and `"den"`.
+The class should then have 2 **integer** attributes attributes `"num"` and `"den"`.
 
-For this particular exercise, we won't deal with negative fractions. Hence, neither the numerator nor the denominator can be `< 0`.
+For this particular exercise, **we won't deal with negative fractions**. Hence, **neither the numerator nor the denominator can be `< 0`**.
 
-Also remember that division by `0` is undefined. Thus, the denominator cannot be `<= 0`.
+Also remember that division by `0` is undefined. Thus, the **denominator cannot be `<= 0`**.
 
-When coding your constructor method, make sure you check for these cases and return an appropriate error message.
+When coding your constructor method, **make sure you check for these cases** and return an appropriate **error message**.
 
 Make sure to test your code constantly. At this point, you should be able to execute code like this:
 
@@ -36,7 +36,7 @@ AssertionError: Denominator cannot be 0 and Numerator cannot be negative
 ```
 
 ## Coding Step 2: `__str__` and `__repr__` magic methods
-The `__str__` magic method is used whenever you print an object. For our Fraction objects, we want the output of the __str__ method to be a string of the numerator and the denominator separated by a forward slash, like so:
+The `__str__` magic method is used whenever you print an object. For our Fraction objects, we want the output of the `__str__` method to be a string of the **numerator and the denominator separated by a forward slash**, like so:
 
 ```python
 >>> f1 = Fraction(5,8)
@@ -58,7 +58,7 @@ Fraction multiplication is pretty straight forward: multiply both numerators by 
 
 The fraction `__mul__` magic method should then receive a second Fraction object as an argument and perform the multiplication operation for fractions.
 
-IMPORTANT: This method should create a NEW Fraction object and NOT modify the original fractions:
+IMPORTANT: This method should create a **NEW** Fraction object and **NOT** modify the original fractions:
 
 ```python
 >>> f1 = Fraction(3,4)
@@ -89,7 +89,7 @@ Same as with `__mul__`, the `__add__` magic method must create a NEW Fraction ob
 Finally, we'll code a 'simplify' method that reduces a fraction to its simplest terms. For example:
 
 
-To achieve this we simply must find the Greatest Common Divisor (GCD) of both the numerator and denominator in the fraction.
+To achieve this we simply must find the **Greatest Common Divisor (GCD)** of both the numerator and denominator in the fraction.
 
 Here's some code that finds the gcd for two numbers:
 
@@ -106,7 +106,7 @@ def gcd(a, b) -> int:
 Once you have the GCD, simplifying the fraction means dividing both the numerator and denominator by the GCD. For example:
 
 
-### IMPORTANT: the simplify method DOES NOT create a new object, instead it MODIFIES the object that calls it:
+**IMPORTANT:** the simplify method **DOES NOT** create a new object, instead it **MODIFIES the object that calls it:**
 
 ```python
 >>> f1 = Fraction(35,56)
@@ -132,6 +132,6 @@ Modify the code for `__init__`, `__add__`, and `__mul__` so that only minimal fr
 ```
 
 ## Upload your code
-When you finish, upload a file named "fractions.py" with your code to Canvas.
+When you finish, upload a file named `fractions.py` with your code to Canvas.
 
 Remember, it's ok if you do not finish the full exercise. Simply upload whatever you managed to complete with your group.
