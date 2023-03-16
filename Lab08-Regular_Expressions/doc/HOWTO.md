@@ -21,8 +21,8 @@ The program first prompts the user for an email address which will serve as the 
 The requirements for acceptable email addresses are as follows:
 
 - Cannot start with a digit.
-- Should only contain one @ symbol delimiting the username from the domain.
-- Only accepted domains should end with '.edu' or '.com'.
+- Should only contain one `@` symbol delimiting the username from the domain.
+- Only accepted domains should end with `.edu` or `.com`.
 
 
 Examples of incorrect email addresses:
