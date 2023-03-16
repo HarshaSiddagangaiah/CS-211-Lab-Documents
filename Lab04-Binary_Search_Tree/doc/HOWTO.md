@@ -8,7 +8,7 @@ Consider the following binary search tree:
 
 Binary Search Tree  
 
-![Start the Python console in PyCharm](img/BST.png)
+![Binary Search Tree](img/BST.png)
 
 We say node 5 is the parent of node 3 and node 7, and we say node 3 and node 7 are the children of node 5.
 
