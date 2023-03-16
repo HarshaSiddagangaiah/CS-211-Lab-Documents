@@ -75,7 +75,7 @@ Our output is:
 ### Deliverable:
  
 
-Upload your `Binary_Search_Tree.py` file to Canvas at the end of the lab.
+Upload your `binary_search_tree.py` file to Canvas at the end of the lab.
 
  
 
