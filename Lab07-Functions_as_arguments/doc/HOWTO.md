@@ -106,7 +106,7 @@ Define the following functions:
 - A function called `apply` that receives a function as its first argument, and a list of integers as a second argument. This function should return a list created by applying the argument function to every element in the original list.
 - Create a function called `square` that receives a list of integers as its sole argument and returns a list of the same length where every element of the original list has been squared. Use the `apply` function and a lambda function to create this function easily.
 - Create a function called `magnitude` that receives a list of integers called `vector` as its sole argument and returns the magnitude of the vector. The magnitude of a vector is defined mathematically as the square root of the sum of its squared elements. For example, for a two-element vector: 
- . For a three-element vector, 
+ . For a three-element vector, $\|sqrt{3x-1}+(1+x)^2|$
  , and so on.
 
 ### Step 2
@@ -115,14 +115,14 @@ Store references to the `total_sum`, `square`, and `magnitude` functions in a Py
 In the example found at the bottom of these instructions, I'm using integers as keys: 1 for total_sum, 2 for square, and 3 for magnitude. However, you can use strings or whatever you'd like.
 
 ### Step 3
-Create a Python class called FunctionDispatcher.
+Create a Python class called `FunctionDispatcher`.
 
 The init method should receive a dictionary of functions like the one you created in Step 2.
 
 Its only method is called `process_command` and receives two arguments:
 
-A key indicating the command to execute
-A list of integers
+- A key indicating the command to execute
+- A list of integers
 The `process_command` method should then just use the key to call the appropriate function on the array of integers and return the result.
 
 Once done, you should be able to run code like the following: 
