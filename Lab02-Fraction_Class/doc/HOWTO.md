@@ -86,7 +86,7 @@ Same as with `__mul__`, the `__add__` magic method must create a NEW Fraction ob
 ```
 
 ## Coding Step 4: The Simplify method
-Finally, we'll code a 'simplify' method that reduces a fraction to its simplest terms. For example:
+Finally, we'll code a `simplify` method that reduces a fraction to its simplest terms. For example:
 
 
 To achieve this we simply must find the **Greatest Common Divisor (GCD)** of both the numerator and denominator in the fraction.
