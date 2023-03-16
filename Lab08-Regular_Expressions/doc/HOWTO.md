@@ -28,10 +28,10 @@ The requirements for acceptable email addresses are as follows:
 Examples of incorrect email addresses:
 
 - `2b_or_not_2b@gmail.com` -> starts with a digit.
-- `jessic@warren@uoregon.edu` -> has multiple @ symbols.
-- `john19@corporation.org` -> domain ending with '.org'.
+- `jessic@warren@uoregon.edu` -> has multiple `@` symbols.
+- `john19@corporation.org` -> domain ending with `.org`.
 
-Create a function called "validate_email" that receives an email address as an argument and returns True if it fulfills all the requirements for a correctly formated address, and False otherwise.
+Create a function called `validate_email` that receives an email address as an argument and returns `True` if it fulfills all the requirements for a correctly formated address, and `False` otherwise.
 
 ## Step 2
 Once the email has been validated, the program should ask the user for a password.
@@ -48,7 +48,7 @@ Examples of non-acceptable passwords:
 - `str@ngepl@net` -> does not contain digits
 - `ic3br3ak3r` -> does not contain non-alphanumeric symbols
 
-Create a function called `"validate_password"` that receives an password as an argument and returns True if it fulfills all the requirements for a correctly formated password, and False otherwise.
+Create a function called `validate_password` that receives an password as an argument and returns `True` if it fulfills all the requirements for a correctly formated password, and `False` otherwise.
 
 ## Step 3
 When you are done defining your functions, code a small program to test them out.
@@ -67,4 +67,4 @@ Invalid password, provide a different one: oregonducks#1
 Sign up successful
 ```
 
-Submit a file named `"sign_up.py"` to Canvas with your code.
+Submit a file named `sign_up.py` to Canvas with your code.
