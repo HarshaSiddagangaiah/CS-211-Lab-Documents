@@ -17,7 +17,7 @@ class Shape3D:
         raise NotImplementedError("Not implemented for abstract class")
 ```
 
-The volume and area methods are not implemented in the abstract class leaving the specific implementation to each concrete subclass.
+The **volume** and **area** methods are not implemented in the abstract class leaving the specific implementation to each concrete subclass.
 
 ## Coding step 1
 Add a method called `print_info` to the abstract class. This method, unlike the volume and area, should be implemented. The print_info method must print a string with both the volume and the area of the shape like so:
