@@ -1,8 +1,8 @@
 # Aliasing 
 
-In this lab, we will write a program to help ASUO (The Associated Students of the University of Oregon) to form and schedule clubs for students.
+In this lab, we will write a program to help `ASUO` (The Associated Students of the University of Oregon) to form and schedule clubs for students.
 
-For this program, we will create 3 classes (Student, Club, ASUO)
+For this program, we will create 3 classes (`Student`, `Club`, `ASUO`)
 
 There is also a section called supplemental material attached at the bottom.
 
