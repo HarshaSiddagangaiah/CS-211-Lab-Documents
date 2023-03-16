@@ -107,7 +107,7 @@ Define the following functions:
 - Create a function called `square` that receives a list of integers as its sole argument and returns a list of the same length where every element of the original list has been squared. Use the `apply` function and a lambda function to create this function easily.
 - Create a function called `magnitude` that receives a list of integers called `vector` as its sole argument and returns the magnitude of the vector. The magnitude of a vector is defined mathematically as the square root of the sum of its squared elements. For example, for a two-element vector: 
  . For a three-element vector, $|[x, y]| = \sqrt{x^2 + y^2}$
- , and so on.
+ , and so on. $|[x, y, z]| = \sqrt{x^2 + y^2 + z^2}$
 
 ### Step 2
 Store references to the `total_sum`, `square`, and `magnitude` functions in a Python dictionary called `dispatch_table`. 
