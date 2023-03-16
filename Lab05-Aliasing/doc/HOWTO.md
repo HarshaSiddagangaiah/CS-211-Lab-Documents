@@ -7,7 +7,7 @@ For this program, we will create 3 classes (`Student`, `Club`, `ASUO`)
 There is also a section called supplemental material attached at the bottom.
 
 ## Coding step 1
-1. Create a class called Student with the following constructor.
+1. Create a class called `Student` with the following constructor.
 
 ```python
 from typing import List, Set, Dict, Optional
@@ -29,7 +29,7 @@ Note: Here are some of the characteristics of Python's built-in set type:
 - Set elements are unique. Duplicate elements are not allowed.
 - A set itself may be modified, but the elements contained in the set must be of an immutable type.
 
-- `meetings`: a list of time slots for all the meetings that a student has scheduled. Note that a time slot in meetings should not be included in freetimes. 
+- `meetings`: a list of time slots for all the meetings that a student has scheduled. Note that a time slot in `meetings` should not be included in `freetimes`. 
 
 2. Create a method called `schedule_meeting()` to schedule a meeting for a student given a time slot.
 
@@ -40,7 +40,7 @@ Note: Here are some of the characteristics of Python's built-in set type:
 This function takes in one parameter `time`, it checks if the student is free at the `time`, if so, it will add `time` to `meetings` and remove `time` from `freetimes`.
 
 ## Coding step 2
-1. Create a class called Club with the following constructor:
+1. Create a class called `Club` with the following constructor:
 
 ```python
 class Club:
@@ -57,7 +57,7 @@ class Club:
 
 - `meeting_time`: a meeting time so that all members can attend.
 
-Notice that we used Optional[int]=None here, this is called type checking or type hints. This line of code simply says that a variable (meeting_time) either has the type specified (int) or is None.
+Notice that we used `Optional[int]=None` here, this is called type `checking` or `type hints`. This line of code simply says that a variable `(meeting_time)` either has the type specified `(int)` or is `None`.
 
 2. Create the following function to add a student to the member list.
 
@@ -65,19 +65,19 @@ Notice that we used Optional[int]=None here, this is called type checking or typ
     def join(self, student: Student):
 ```
 
-3. Create the following function to find the common time slot for all members from their freetimes to attend. If it cannot find a common time, return 0.
+3. Create the following function to find the common time slot for all members from their `freetimes` to attend. If it cannot find a common time, return 0.
 
 ```python
     def find_common_time(self) -> int:
 ```
 
-4. Create the following function to schedule the club meeting for all of its members.
+4. Create the following function to `schedule` the club meeting for all of its members.
 
 ```python
     def schedule(self, time: int):
 ```
 
-5. Add __str__ magical method:
+5. Add `__str__` magical method:
 
 ```python
     def __str__(self) -> str:
@@ -86,7 +86,7 @@ Notice that we used Optional[int]=None here, this is called type checking or typ
 ```
 
 ## Coding step 3
-1. Create a class called ASUO with the following constructor:
+1. Create a class called `ASUO` with the following constructor:
 
 ```python
 class ASUO:
@@ -109,9 +109,9 @@ class ASUO:
         clubs_to_form: Dict[str, Club] = {}
  ```
 
-For each student, checks if student interested club has already been formed. If not, creates a new Club object with the interest and add it to the clubs_to_form dictionary. If a club for that interest already exists, then add the student to the existing club.
+For each student, checks if student interested club has already been formed. If not, creates a new `Club` object with the interest and add it to the `clubs_to_form` dictionary. If a club for that interest already exists, then add the student to the existing club.
 
-Notice that clubs_to_form is a dictionary. A dictionary contains key-value pairs. We can look up the dictionary by providing the key. For example, clubs_to_form[key] will give you the value.
+Notice that clubs_to_form is a dictionary. A dictionary contains key-value pairs. We can look up the dictionary by providing the key. For example, `clubs_to_form[key]` will give you the value.
 
 4. Create the following function to schedule clubs:
 
@@ -156,7 +156,7 @@ horticulture (Tara) meets at 8
 chess (Tara, George) meets at 10
 ```
 
-Submit a file named Aliasing.py with your code to Canvas.
+Submit a file named `Aliasing.py` with your code to Canvas.
 
  
 
@@ -173,7 +173,7 @@ OREGON
 
 That is, calling a method from the 'string' class of objects.
 
-Now, some objects can be changed after they've been created. For example, lists CAN be modified after they are initially instantiated:
+Now, some objects can be changed after they've been created. For example, lists **CAN be modified** after they are initially instantiated:
 
 ```python
 >>> lst = ['a', 'b']
@@ -182,9 +182,9 @@ Now, some objects can be changed after they've been created. For example, lists 
 ['a', 'b', 'c']
 ```
 
-These types of objects that can be changed after they're created are called MUTABLE. Most, if not all, of the classes you've created so far during the course, have been mutable.
+These types of objects that can be changed after they're created are called **MUTABLE**. Most, if not all, of the classes you've created so far during the course, have been mutable.
 
-There is, however, another kind of object. Objects that cannot be changed after they've been created. Those objects are called IMMUTABLE. Examples of immutable objects in Python include integers and strings.
+There is, however, another kind of object. Objects that **cannot be changed** after they've been created. Those objects are called IMMUTABLE. Examples of immutable objects in Python include **integers** and **strings**.
 
 Now, at this point you might be thinking that you actually CAN modify strings, for example:
 
@@ -195,7 +195,7 @@ Now, at this point you might be thinking that you actually CAN modify strings, f
 "oregon ducks"
 ```
 
-However, in reality, every time you "modify" a string, a NEW string object is created.
+However, in reality, every time you `modify` a string, a NEW string object is created.
 
 ### Aliasing
 Going back to aliasing, if you assign 2 variable names to the same objects, then you've created an alias.
@@ -205,14 +205,14 @@ Going back to aliasing, if you assign 2 variable names to the same objects, then
 >>> lst2 = lst1
 ```
 
-At this point, lst2 is an alias of lst1. This means that both names point to the same location in memory. You can verify this using the 'is' operator:
+At this point, `lst2` is an alias of `lst1`. This means that both names point to the same location in memory. You can verify this using the 'is' operator:
 
 ```python
 >>> lst1 is lst2
 True
 ```
 
-Now, here comes the interesting part, if you modify lst2, the changes will be reflected when you use the lst1 name, given that they refer to the same object:
+Now, here comes the interesting part, if you modify `lst2`, the changes will be reflected when you use the lst1 name, given that they refer to the same object:
 
 ```python
 >>> lst2.append('d')
@@ -236,12 +236,12 @@ True
 False
 ```
 
-Since strings are immutable, they can't be modified. So, when we concatenate a second string to st2 a NEW object is created and st2 no longer points to the same location as st1.
+Since strings are immutable, they can't be modified. So, when we concatenate a second string to `st2` a NEW object is created and `st2` no longer points to the same location as `st1`.
 
 ### Dealing with aliasing
 So, when dealing with mutable objects we need to be aware of the way their methods work.
 
-In lists, for examples, some methods work "in place", i.e. they modify the object that called them. Examples of in place methods for lists are append and sort.
+In lists, for examples, some methods work `in place`, i.e. they modify the object that called them. Examples of in place methods for lists are append and sort.
 
 ```python
 >>> lst = [5,2,4]
@@ -262,7 +262,7 @@ Methods that do not work in place return a new object instead. An example of thi
 
 So, if you have an alias for a mutable object and call an in place method, you can expect the effects of the call to affect all other names too. If the method returns a new object instead, then you do not have to worry about aliasing.
 
-Avoiding aliasing
+## Avoiding aliasing
 As stated before, aliasing can be useful. However, if you're intention is not to create an alias then what you can do is create a copy of the original object.
 
 For lists, for example:
@@ -293,7 +293,7 @@ True
 
 To avoid the behavior above you must create a deep copy instead.
 
-The copy module provides both a copy and a deepcopy function that works for all objects:
+The **copy** module provides both a copy and a deepcopy function that works for all objects:
 
 ```python
 >>> from copy import copy, deepcopy
