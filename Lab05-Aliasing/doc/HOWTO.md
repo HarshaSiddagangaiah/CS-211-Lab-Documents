@@ -25,10 +25,11 @@ class Student:
 
 Note: Here are some of the characteristics of Python's built-in set type:
 
-Sets are unordered.
-Set elements are unique. Duplicate elements are not allowed.
-A set itself may be modified, but the elements contained in the set must be of an immutable type.
-- meetings: a list of time slots for all the meetings that a student has scheduled. Note that a time slot in meetings should not be included in freetimes. 
+- Sets are unordered.
+- Set elements are unique. Duplicate elements are not allowed.
+- A set itself may be modified, but the elements contained in the set must be of an immutable type.
+
+- `meetings`: a list of time slots for all the meetings that a student has scheduled. Note that a time slot in meetings should not be included in freetimes. 
 
 2. Create a method called schedule_meeting() to schedule a meeting for a student given a time slot.
 
