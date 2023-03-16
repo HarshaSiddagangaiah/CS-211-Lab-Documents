@@ -12,7 +12,7 @@ In this lab, you will code a Python class to represent `fraction` objects. The l
 
 You will begin by defining the Fraction class and its constructor method, where you will check for invalid input cases such as negative numerator or denominator and division by zero. Then, you will define the str and repr magic methods to control how the fraction objects are printed and displayed in the debugger.
 
-In the next step, you will define the multiplication and addition magic methods to perform arithmetic operations on fractions. You will also learn how to create new Fraction objects from these operations without modifying the original fractions.
+In the next step, you will define the multiplication and addition magic methods to perform arithmetic operations on fractions. You will also learn how to create new `Fraction` objects from these operations without modifying the original fractions.
 
 Finally, you will define a method to `simplify` fractions and integrate it into the constructor, `multiplication`, and `addition` methods.
 
