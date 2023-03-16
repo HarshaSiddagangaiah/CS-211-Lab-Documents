@@ -10,10 +10,10 @@ You should turn in whatever you have completed at the end of your
 scheduled lab, whether it is complete or not.  You will get full credit
 for participating in lab, whether or not you reach the end. 
 
-This document is written in a notation called "markdown", which can be
+This document is written in a notation called `markdown`, which can be
 read directly or formatted for easier reading.  If you are using the
 PyCharm interactive development environment (IDE), I suggest choosing
-the "preview" mode to read it in a nicely formatted version. 
+the `preview` mode to read it in a nicely formatted version. 
 
 ![Select preview mode in PyCharm](img/markdown-preview-mode.png)
 
