@@ -109,6 +109,7 @@ def gcd(a, b) -> int:
 
 Once you have the GCD, simplifying the fraction means dividing both the numerator and denominator by the GCD. For example:
 
+<img width="309" alt="Screen Shot 2022-04-04 at 11 30 31 PM" src="https://user-images.githubusercontent.com/86554954/161692709-d0724e5f-8c95-4df7-96c6-a7aa25091b03.png">
 
 **IMPORTANT:** the simplify method **DOES NOT** create a new object, instead it **MODIFIES the object that calls it:**
 
