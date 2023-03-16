@@ -42,10 +42,10 @@ Add a concrete subclass `Cuboid` that inherits from `Shape3D`.
 
 A Cuboid has 3 attributes: `width`, `length`, and `height`. All should have `float` type.
 
-The formula for the `volume of a Cuboid` is as follows: $ width * length * height $
+The formula for the `volume of a Cuboid` is as follows: $width * length * height$
 
 
-The formula for the `area of a Cylinder` is as follows: $ 2 * w * l + 2 * w * h + 2 * l * h $
+The formula for the `area of a Cylinder` is as follows: $2 * w * l + 2 * w * h + 2 * l * h$
 
 
 ## Coding step 4
