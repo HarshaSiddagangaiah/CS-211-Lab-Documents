@@ -29,7 +29,7 @@ We already know that we can pass any type of object as the argument for a method
 4
 ```
 
-Notice that the type hint for functions is "Callable". You need to import the type from typing as you have been doing for lists or tuples.
+Notice that the type hint for functions is `Callable`. You need to import the type from typing as you have been doing for lists or tuples.
 
 ```python
 >>> from typing import Callable
@@ -38,7 +38,7 @@ Notice that the type hint for functions is "Callable". You need to import the ty
 ## Lambda functions
 Lambda functions are small functions with no name. They're most useful when used as arguments for other functions.
 
-For example, instead of defining the "plus_one" function as we did previously, we can simply use an equivalent lambda function and use it as an argument:
+For example, instead of defining the `plus_one` function as we did previously, we can simply use an equivalent lambda function and use it as an argument:
 
 ```python
 >>> composite_double_function(lambda x: x + 1, 3)
