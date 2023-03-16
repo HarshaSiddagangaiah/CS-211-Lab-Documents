@@ -61,4 +61,4 @@ False
 True
 ```
 
-Submit a file named `"Creatures.py"` with your code.
+Submit a file named `"creatures.py"` with your code.
