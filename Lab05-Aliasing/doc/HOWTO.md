@@ -262,7 +262,7 @@ Methods that do not work in place return a new object instead. An example of thi
 
 So, if you have an alias for a mutable object and call an in place method, you can expect the effects of the call to affect all other names too. If the method returns a new object instead, then you do not have to worry about aliasing.
 
-## Avoiding aliasing
+### Avoiding aliasing
 As stated before, aliasing can be useful. However, if you're intention is not to create an alias then what you can do is create a copy of the original object.
 
 For lists, for example:
