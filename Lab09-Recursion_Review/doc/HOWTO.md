@@ -19,7 +19,7 @@ class Creature(object):
         raise NotImplementedError("Abstract class methods should not be called")
 ```
 
-The 3 concrete classes are named: ([Orthrus](https://en.wikipedia.org/wiki/Orthrus))., CerberusLinks to an external site., and Head. 
+The 3 concrete classes are named: [Orthrus](https://en.wikipedia.org/wiki/Orthrus), [Cerberus](https://en.wikipedia.org/wiki/Cerberus), and Head. 
 
 All three should have the following methods:
 
