@@ -156,7 +156,7 @@ horticulture (Tara) meets at 8
 chess (Tara, George) meets at 10
 ```
 
-Submit a file named `Aliasing.py` with your code to Canvas.
+Submit a file named `aliasing.py` with your code to Canvas.
 
  
 
