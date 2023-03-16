@@ -53,7 +53,7 @@ Add a concrete subclass `Cube` that inherits from `Cuboid`.
 
 A Cube only has one attribute: `width`. It should have `float` type.
 
-You do NOT need to implement the volume and area methods for the Cube class since they work exactly the same as the ones of its super class.
+You do NOT need to implement the volume and area methods for the `Cube` class since they work exactly the same as the ones of its super class.
 
 ## Coding step 5
 Once you're done coding the subclasses you should be able to run the following code:
