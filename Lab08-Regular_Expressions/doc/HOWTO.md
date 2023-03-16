@@ -56,7 +56,7 @@ When you are done defining your functions, code a small program to test them out
 When you execute your program it should look like this:
 
 ```python
->>> python sign_up.py
+>>> python signup.py
 
 Provide an email address: luis.fernando@gmail.org
 Invalid email, provide a different one: 1luis@uoregon.edu
@@ -67,4 +67,4 @@ Invalid password, provide a different one: oregonducks#1
 Sign up successful
 ```
 
-Submit a file named `sign_up.py` to Canvas with your code.
+Submit a file named `signup.py` to Canvas with your code.
