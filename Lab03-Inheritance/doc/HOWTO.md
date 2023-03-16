@@ -20,7 +20,7 @@ class Shape3D:
 The **volume** and **area** methods are not implemented in the abstract class leaving the specific implementation to each concrete subclass.
 
 ## Coding step 1
-Add a method called `print_info` to the abstract class. This method, unlike the volume and area, should be implemented. The print_info method must print a string with both the volume and the area of the shape like so:
+Add a method called `print_info` to the abstract class. This method, unlike the volume and area, **should** be implemented. The **print_info** method must print a string with both the volume and the area of the shape like so:
 
 `Area: XXXXX`  `Volume: XXXXX`
 
@@ -31,7 +31,7 @@ Add a concrete subclass `Cylinder` that inherits from `Shape3D`.
 
 A Cylinder has 2 attributes: `radius` and `height`. Both should be of the `float` type.
 
-The formula for the `volume of a Cylinder` is as follows:
+The formula for the `volume of a Cylinder` is as follows: $ \pie {3x-1}+(1+x)^2$
 
 
 The formula for the `area of a Cylinder` is as follows:
