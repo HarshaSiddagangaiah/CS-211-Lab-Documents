@@ -17,7 +17,7 @@ Define a new Python class named `Fraction`.
 
 As you already know, fractions have 2 parts: the numerator and the denominator.
 
-The class should then have 2 **integer** attributes attributes `"num"` and `"den"`.
+The class should then have 2 **integer** attributes attributes `num` and `den`.
 
 For this particular exercise, **we won't deal with negative fractions**. Hence, **neither the numerator nor the denominator can be `< 0`**.
 
