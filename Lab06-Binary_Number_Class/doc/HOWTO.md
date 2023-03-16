@@ -1,11 +1,11 @@
 # BinaryNumber Class
 
-Everything in Python is represented as binary digits and it natively provides operators to perform bitwise operations such as and &,  or |, right-shift >>, and left-shift <<.
+Everything in Python is represented as binary digits and it natively provides operators to perform bitwise operations such as and `&`,  or `|`, right-shift `>>`, and left-shift `<<`.
 
-In this Lab, you will create your own BinaryNumber class to deal with unsigned, positive binary numbers. The goal of the Lab is to provide you with some practice in dealing with binary number representations and, by doing so, hopefully, get some additional insight that will prove useful when completing this week's project.
+In this Lab, you will create your own `BinaryNumber` class to deal with unsigned, positive binary numbers. The goal of the Lab is to provide you with some practice in dealing with binary number representations and, by doing so, hopefully, get some additional insight that will prove useful when completing this week's project.
 
 ## Specifications
-BinaryNumber only has one attribute - bits - which is an integer list and all of its elements are either 1 or 0.
+`BinaryNumber` only has one attribute - `bits` - which is an integer list and all of its elements are either `1` or `0`.
 
 Here's an instance example:
 
@@ -55,14 +55,14 @@ OR [1, 1, 1, 0, 1]
 ```
 
 ## Extract Method
-Implement an 'extract' method for the BinaryNumber class that receives two integer indexes (start and end) and then extracts the bits in those positions and returns a new BinaryNumber object with those bits.
+Implement an `extract` method for the `BinaryNumber` class that receives two integer indexes (start and end) and then extracts the bits in those positions and returns a new `BinaryNumber` object with those bits.
 
 
 - `0 <= start < end`
 - `start < end <= binary number length`
 - The extracted BinaryNumber must have the length as the original.
 
-IMPORTANT NOTE: do NOT simply use list slicing to implement the extract method. Use the __or__, __and__, and shift methods that you implemented previously. This will allow you to practice for the upcoming project.
+IMPORTANT NOTE: do NOT simply use list slicing to implement the extract method. Use the `__or__`, `__and__`, and shift methods that you implemented previously. This will allow you to practice for the upcoming project.
 
 Once you're done you should be able to use the code as follows:
 
@@ -74,4 +74,4 @@ Once you're done you should be able to use the code as follows:
 [0, 0, 0, 0, 0, 1, 0, 1]
 ```
 
-Submit a file named `"BinaryNumber.py"` with your code
+Submit a file named `BinaryNumber.py` with your code
