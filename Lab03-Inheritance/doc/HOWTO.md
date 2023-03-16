@@ -49,7 +49,7 @@ The formula for the `area of a Cylinder` is as follows:
 
 
 ## Coding step 4
-Add a concrete subclass `Cube` that inherits from `Cuboid``.
+Add a concrete subclass `Cube` that inherits from `Cuboid`.
 
 A Cube only has one attribute: `width`. It should have `float` type.
 
