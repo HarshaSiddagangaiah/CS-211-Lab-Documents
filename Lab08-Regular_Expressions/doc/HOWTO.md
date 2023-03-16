@@ -8,8 +8,8 @@ import re
 The following link has a very concise explanation of the use of the re module with some useful examples:
 
 [W3Schools](https://www.w3schools.com/python/python_regex.asp).
-For a more detailed explanation, refer to the following link:
 
+For a more detailed explanation, refer to the following link:
 [Python documentation](https://docs.python.org/3/howto/regex.html).
 
 ## Exercise - Sign-up interface
