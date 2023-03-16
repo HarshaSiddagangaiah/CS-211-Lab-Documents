@@ -55,7 +55,8 @@ Fraction(3,9)
 ## Coding Step 3: `__mul__` and `__add__` magic methods
 Fraction multiplication is pretty straight forward: multiply both numerators by each other and both denominators by each other:
 
-&frac12;
+
+<img width="177" alt="Screen Shot 2022-04-04 at 11 25 13 PM" src="https://user-images.githubusercontent.com/86554954/161691961-22d16bc5-f9fb-47cc-a2ad-bcd7c321cb08.png">
 
 The fraction `__mul__` magic method should then receive a second Fraction object as an argument and perform the multiplication operation for fractions.
 
@@ -73,6 +74,7 @@ IMPORTANT: This method should create a **NEW** Fraction object and **NOT** modif
 
 For fraction addition, the resulting denominator is again the multiplication of both the original denominators. The resulting numerator is obtained by multiplying each numerator by its counterpart denominator and then adding them together like so:
 
+<img width="330" alt="Screen Shot 2022-04-04 at 11 26 29 PM" src="https://user-images.githubusercontent.com/86554954/161692131-c27a0bbb-cdea-4efc-8431-23a31ffb87b6.png">
 
 Same as with `__mul__`, the `__add__` magic method must create a **NEW** Fraction object:
 
@@ -89,6 +91,7 @@ Same as with `__mul__`, the `__add__` magic method must create a **NEW** Fractio
 ## Coding Step 4: The Simplify method
 Finally, we'll code a `simplify` method that reduces a fraction to its simplest terms. For example:
 
+<img width="309" alt="Screen Shot 2022-04-04 at 11 29 29 PM" src="https://user-images.githubusercontent.com/86554954/161692575-2ced5b50-7174-4177-9af2-856c65af7a4d.png">
 
 To achieve this we simply must find the **Greatest Common Divisor (GCD)** of both the numerator and denominator in the fraction.
 
