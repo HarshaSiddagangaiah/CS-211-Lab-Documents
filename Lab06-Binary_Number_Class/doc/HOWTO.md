@@ -4,6 +4,8 @@ Everything in Python is represented as binary digits and it natively provides op
 
 In this Lab, you will create your own `BinaryNumber` class to deal with unsigned, positive binary numbers. The goal of the Lab is to provide you with some practice in dealing with binary number representations and, by doing so, hopefully, get some additional insight that will prove useful when completing this week's project.
 
+[Text link](https://uo-cis211.github.io/chapters/06_1_Bits)
+
 ## Specifications
 `BinaryNumber` only has one attribute - `bits` - which is an integer list and all of its elements are either `1` or `0`.
 
